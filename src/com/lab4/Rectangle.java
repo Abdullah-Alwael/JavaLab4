@@ -28,11 +28,11 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
-        return 0; // TODO
+        return width*height;
     }
 
     @Override
-    public double calculateCircumference() {
-        return 0; // TODO
+    public double calculateCircumference() { // return perimeter
+        return 2*(height+width);
     }
 }

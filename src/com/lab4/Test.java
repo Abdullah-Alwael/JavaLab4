@@ -43,6 +43,26 @@ public class Test {
         System.out.println("The Perimeter of rectangle 1 is: "+formatter);
 
         // Triangle
+        Triangle t1 = new Triangle(14,16);
+        formatter = String.format("%.2f", t1.getHeight());
+        System.out.println("Initial triangle 1 height is: "+formatter);
 
+        t1.setHeight(20);
+        formatter = String.format("%.2f", t1.getHeight());
+        System.out.println("triangle 1 height is now: "+formatter);
+
+        formatter = String.format("%.2f", t1.getBase());
+        System.out.println("Initial triangle 1 base is: "+formatter);
+
+        t1.setBase(15);
+        formatter = String.format("%.2f", t1.getBase());
+        System.out.println("triangle 1 base is now: "+formatter);
+
+
+        formatter = String.format("%.2f", t1.calculateArea());
+        System.out.println("The area of triangle 1 is: "+formatter);
+
+        formatter = String.format("%.2f", t1.calculateCircumference()); // Perimeter
+        System.out.println("The Perimeter of triangle 1 is: "+formatter);
     }
 }

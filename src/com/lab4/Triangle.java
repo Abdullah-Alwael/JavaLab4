@@ -28,11 +28,11 @@ public class Triangle extends Shape {
 
     @Override
     public double calculateArea() {
-        return 0;
+        return (base*height)/2;
     }
 
     @Override
     public double calculateCircumference() {
-        return 0;
+        return 3*base;
     }
 }

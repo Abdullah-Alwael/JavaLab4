@@ -19,6 +19,7 @@ public class Test {
         formatter = String.format("%.2f", c1.calculateCircumference());
         System.out.println("The circumference of circle 1 is: "+formatter);
 
+        System.out.println();
         // Rectangle
         Rectangle r1 = new Rectangle(10,5);
         formatter = String.format("%.2f", r1.getHeight());
@@ -42,6 +43,7 @@ public class Test {
         formatter = String.format("%.2f", r1.calculateCircumference()); // Perimeter
         System.out.println("The Perimeter of rectangle 1 is: "+formatter);
 
+        System.out.println();
         // Triangle
         Triangle t1 = new Triangle(14,16);
         formatter = String.format("%.2f", t1.getHeight());
